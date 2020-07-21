@@ -21,8 +21,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('hq', function(){
+Route::get('estate', function(){
 
-    return view('hq');
+    return view('main');
 
 });
