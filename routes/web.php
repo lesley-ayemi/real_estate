@@ -26,3 +26,9 @@ Route::get('estate', function(){
     return view('main');
 
 });
+
+Route::get('hq', function () {
+
+    return view('hq');
+    
+});
