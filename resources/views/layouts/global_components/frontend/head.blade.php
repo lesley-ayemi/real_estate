@@ -4,17 +4,17 @@
     <title>Kwitara - Bootstrap Real Estate template </title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" /><!-- Bootstrap -->
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css" /><!-- Icons -->
-    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css" type="text/css" /><!-- Icons -->
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" /><!-- Owl Carousal-->
-    <link rel="stylesheet" href="css/price-range.css" type="text/css" /><!-- Owl Carousal -->
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" type="text/css" /><!-- Bootstrap -->
+    <link rel="stylesheet" href="{{asset('fonts/font-awesome/css/font-awesome.min.css')}}" type="text/css" /><!-- Icons -->
+    <link rel="stylesheet" href="{{asset('fonts/themify-icons/themify-icons.css')}}" type="text/css" /><!-- Icons -->
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css" /><!-- Owl Carousal-->
+    <link rel="stylesheet" href="{{asset('css/price-range.css')}}" type="text/css" /><!-- Owl Carousal -->
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" /><!-- Style -->	
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" /><!-- Responsive -->	
-    <link rel="stylesheet" href="css/colors.css" type="text/css" /><!-- color -->	
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css" /><!-- Style -->
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}" type="text/css" /><!-- Responsive -->
+    <link rel="stylesheet" href="{{asset('css/colors.css')}}" type="text/css" /><!-- color -->
 
     <!-- REVOLUTION STYLE SHEETS -->
-    <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('js/rs-plugin/css/settings.css')}}">
 
 </head>

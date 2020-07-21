@@ -1,14 +1,14 @@
-<script type="text/javascript" src="js/modernizr.js"></script><!-- Modernizer -->
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script><!-- Jquery -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl Carousal -->
-<script type="text/javascript" src="js/html5lightbox.js"></script><!-- HTML -->
-<script type="text/javascript" src="js/scrolly.js"></script><!-- Parallax -->
-<script type="text/javascript" src="js/price-range.js"></script><!-- Parallax -->
-<script type="text/javascript" src="js/script.js"></script><!-- Script -->
+<script type="text/javascript" src="{{asset('js/modernizr.js')}}"></script><!-- Modernizer -->
+<script type="text/javascript" src="{{asset('js/jquery-1.10.2.min.js')}}"></script><!-- Jquery -->
+<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script><!-- Bootstrap -->
+<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script><!-- Owl Carousal -->
+<script type="text/javascript" src="{{asset('js/html5lightbox.js')}}"></script><!-- HTML -->
+<script type="text/javascript" src="{{asset('js/scrolly.js')}}"></script><!-- Parallax -->
+<script type="text/javascript" src="{{asset('js/price-range.js')}}"></script><!-- Parallax -->
+<script type="text/javascript" src="{{asset('js/script.js')}}"></script><!-- Script -->
 
-<script src="js/rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
-<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{{asset('js/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+<script src="{{asset('js/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {

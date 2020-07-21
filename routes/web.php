@@ -30,5 +30,36 @@ Route::get('estate', function(){
 Route::get('hq', function () {
 
     return view('hq');
-    
+
+});
+
+Route::get('about', function () {
+
+    return view('about');
+
+});
+
+
+Route::get('products', function () {
+
+    return view('house_details');
+
+});
+
+Route::get('contact', function() {
+
+    return view('contact_us');
+
+});
+
+Route::get('terms', function () {
+
+    return view('terms_conditions');
+
+});
+
+Route::get('faq', function () {
+
+    return view('faq');
+
 });
